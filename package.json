@@ -1,8 +1,8 @@
 {
-  "name": "SkiFree.js",
+  "name": "RuneSki.js",
   "version": "0.1.0",
-  "author": "Dan Hough <daniel.hough@gmail.com>",
-  "description": "A browser-based SkiFree port",
+  "author": "Jimmy Jag",
+  "description": "A browser-based SkiFree port originally created by Dan Hough <daniel.hough@gmail.com> modified for the FWRC by Jimmy Jag",
   "contributors": [
     {
       "name": "Daniel Hough",
@@ -16,6 +16,10 @@
     {
       "name": "andersevenrud",
       "url": "https://github.com/andersevenrud"
+    },
+    {
+      "name": "Jimmy Jag",
+      "url": "https://github.com/JimmyJag"
     }
   ],
   "scripts": {

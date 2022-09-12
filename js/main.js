@@ -175,11 +175,11 @@ function startNeverEndingGame (images) {
 		if (!game.isPaused()) {
 			game.addStaticObjects(newObjects);
 
-			randomlySpawnNPC(spawnBoarder, 0.1);
+			//randomlySpawnNPC(spawnBoarder, 0.1); // random boarder
 			distanceTravelledInMetres = parseFloat(player.getPixelsTravelledDownMountain() / pixelsPerMetre).toFixed(1);
 
 			if (distanceTravelledInMetres > monsterDistanceThreshold) {
-				randomlySpawnNPC(spawnMonster, 0.001);
+				//randomlySpawnNPC(spawnMonster, 0.001); // random monster
 			}
 
 			infoBox.setLines([
